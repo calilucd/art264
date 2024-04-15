@@ -173,7 +173,7 @@ html {
 	font-size: 25px;
 	position: absolute;
 	top: 80px;
-	right: 109px;
+	right: 105px;
 	color: #5d7422;
 }
 
@@ -214,7 +214,7 @@ html {
 	padding-left: 30px;
 	padding-top: 60px;
 	background: #ffffff;
-	width: 30%;
+	width: 25%;
 	height: 260px;
 	position: absolute;
 	top: 35px;
@@ -238,7 +238,7 @@ html {
 	font-weight: 600;
 	font-size: 13px;
 	line-height: 1.6;
-	width: 60%;
+	width: 70%;
 	top: 80px;
 	color: #5d7422;
 
@@ -246,8 +246,9 @@ html {
 
 .historical {
 	padding-top: 50px;
+	padding-right: 30px;
 	padding-left: 30px;
-	width: 50%;
+	width: 40%;
 	height: 350px;
 	float: left;
 	position: relative;
@@ -267,7 +268,7 @@ html {
 	padding-left: 30px;
 	padding-top: 80px;
 	background: #ffffff;
-	width: 30%;
+	width: 35%;
 	height: 270px;
 	position: absolute;
 	top: 55px;
@@ -281,7 +282,7 @@ html {
 	font-weight: 700;
 	font-size: 25px;
 	position: absolute;
-	top: 30px;
+	top: 35px;
 	color: #5d7422;
 }
 
@@ -291,16 +292,16 @@ html {
 	font-weight: 600;
 	font-size: 13px;
 	line-height: 1.6;
-	width: 70%;
-	top: 65px;
+	width: 80%;
+	top: 75px;
 	color: #5d7422;
 }
 
 .food {
 	padding-right: 30px;
 	padding-top: 50px;
-	padding-left: 60px;
-	width: 40%;
+	padding-left: 30px;
+	width: 50%;
 	height: 350px;
 	float: right;
 	position: relative;
@@ -317,15 +318,14 @@ html {
 }
 
 .textbox4 {
-	padding-left: 30px;
 	padding-top: 80px;
 	background: #ffffff;
 	width: 35%;
 	height: 270px;
 	position: absolute;
 	top: 55px;
-	left: 65px;
-	border-radius: 20px 0px 0px 20px;
+	right: 25px;
+	border-radius: 0px 20px 20px 0px;
 	opacity: 85%;
 }
 
@@ -334,7 +334,8 @@ html {
 	font-weight: 700;
 	font-size: 25px;
 	position: absolute;
-	top: 25px;
+	top: 35px;
+	right: 45px;
 	color: #5d7422;
 
 }
@@ -345,34 +346,34 @@ html {
 	font-weight: 600;
 	font-size: 13px;
 	line-height: 1.6;
-	width: 70%;
-	top: 60px;
+	width: 80%;
+	top: 75px;
+	right: 25px;
 	color: #5d7422;
 
 }
 
 #about {
 	padding-top: 40px;
-	padding-left: 30px;
+	padding-right: 30px;
 	font-family: "Slackey", sans-serif;
 	font-weight: 400;
 	font-size: 50px;
 	color: #e8b235;
+	float: right;
 }
 
 .aboutbox
 {
 	border-radius: 15px;
 	padding-left: 30px;
-	padding-right: 30px;
-	padding-top: 60px;
-	padding-bottom: 30px;
+	padding-top: 160px;
 	height: 690px;
 }
 
 #aboutpic {
-	width: 60%;
-	height: 100%;
+	width: 50%;
+	height: 90%;
 	border-radius: 25px;
 	object-fit: cover;
 }
@@ -382,9 +383,73 @@ html {
 	font-weight: 400;
 	font-size: 23px;
 	line-height: 1.6;
-	width: 35%;
+	width: 40%;
 	float: right;
 	padding-top: 90px;
 	padding-right: 30px;
 	color: #5d7422;
+}
+
+#staff {
+	padding-top: 40px;
+	padding-left: 30px;
+	font-family: "Slackey", sans-serif;
+	font-weight: 400;
+	font-size: 50px;
+	color: #e8b235;
+}
+
+#stafftext {
+	font-family: "Urbanist", sans-serif;
+	font-weight: 400;
+	font-size: 23px;
+	line-height: 1.6;
+	width: 35%;
+	float: left;
+	padding-top: 35px;
+	padding-left: 30px;
+	padding-right: 40px;
+	color: #5d7422;
+}
+
+.staffbox {
+	border-radius: 15px;
+	padding-right: 30px;
+	padding-top: 60px;
+	padding-bottom: 30px;
+}
+
+#staffpic {
+	width: 60%;
+	height: 100%;
+	border-radius: 25px;
+	object-fit: contain;
+}
+
+footer {
+	background: #53aeb7;
+}
+
+#contact {
+	padding-left: 30px;
+	font-family: "Slackey", sans-serif;
+	font-weight: 400;
+	font-size: 50px;
+	color: #e8b235;
+}
+
+#contactbox {
+	display: flex;
+}
+
+.contactinfo {
+	font-family: "Urbanist", sans-serif;
+	font-weight: 100;
+	font-size: 18px;
+	line-height: 1.6;
+	color: white;
+	padding-right: 30px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	width: 50%;
 }
