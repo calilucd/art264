@@ -84,7 +84,7 @@ html {
 	padding-left: 50px;
 	padding-right: 50px;
 	padding-top: 25px;
-	height: 690px;
+	height: 620px;
 }
 
 #homebox
@@ -102,7 +102,7 @@ html {
 	font-size: 40px;
 	color: #414f14;
 	position: absolute;
-	bottom: 173px;
+	bottom: 160px;
 	left: 90px;
 }
 
@@ -113,7 +113,7 @@ html {
 	font-size: 15px;
 	color: #414f14;
 	position: absolute;
-	bottom: 65px;
+	bottom: 53px;
 	left: 90px;
 	width: 50%;
 	line-height: 1.6;
@@ -139,7 +139,7 @@ html {
 	padding-left: 30px;
 	padding-top: 30px;
 	width: 40%;
-	height: 320px;
+	height: 300px;
 	position: relative;
 }
 
@@ -155,10 +155,10 @@ html {
 
 .textbox1 {
 	padding-left: 30px;
-	padding-top: 60px;
+	padding-top: 50px;
 	background: #ffffff;
 	width: 30%;
-	height: 260px;
+	height: 250px;
 	position: absolute;
 	top: 35px;
 	right: -6px;
@@ -195,7 +195,7 @@ html {
 	padding-top: 30px;
 	padding-left: 60px;
 	width: 50%;
-	height: 320px;
+	height: 300px;
 	float: right;
 	position: relative;
 }
@@ -212,10 +212,10 @@ html {
 
 .textbox2 {
 	padding-left: 30px;
-	padding-top: 60px;
+	padding-top: 55px;
 	background: #ffffff;
 	width: 25%;
-	height: 260px;
+	height: 245px;
 	position: absolute;
 	top: 35px;
 	left: 65px;
@@ -245,11 +245,11 @@ html {
 }
 
 .historical {
-	padding-top: 50px;
+	padding-top: 30px;
 	padding-right: 30px;
 	padding-left: 30px;
 	width: 40%;
-	height: 350px;
+	height: 320px;
 	float: left;
 	position: relative;
 }
@@ -266,12 +266,11 @@ html {
 
 .textbox3 {
 	padding-left: 30px;
-	padding-top: 80px;
 	background: #ffffff;
 	width: 35%;
-	height: 270px;
+	height: 320px;
 	position: absolute;
-	top: 55px;
+	top: 35px;
 	left: 35px;
 	border-radius: 20px 0px 0px 20px;
 	opacity: 80%;
@@ -299,10 +298,10 @@ html {
 
 .food {
 	padding-right: 30px;
-	padding-top: 50px;
+	padding-top: 30px;
 	padding-left: 30px;
 	width: 50%;
-	height: 350px;
+	height: 320px;
 	float: right;
 	position: relative;
 }
@@ -321,9 +320,9 @@ html {
 	padding-top: 80px;
 	background: #ffffff;
 	width: 35%;
-	height: 270px;
+	height: 240px;
 	position: absolute;
-	top: 55px;
+	top: 35px;
 	right: 25px;
 	border-radius: 0px 20px 20px 0px;
 	opacity: 85%;
@@ -368,7 +367,7 @@ html {
 	border-radius: 15px;
 	padding-left: 30px;
 	padding-top: 160px;
-	height: 690px;
+	height: 650px;
 }
 
 #aboutpic {
@@ -422,7 +421,7 @@ html {
 #staffpic {
 	width: 60%;
 	height: 100%;
-	border-radius: 25px;
+	border-radius: 25px 25px 25px 25px;
 	object-fit: contain;
 }
 
@@ -451,5 +450,5 @@ footer {
 	padding-right: 30px;
 	padding-top: 50px;
 	padding-bottom: 50px;
-	width: 50%;
+	width: 45%;
 }
