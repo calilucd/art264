@@ -5,6 +5,8 @@
 <title>Mango and Breeze</title>
 <link href="css/index.css" rel="stylesheet" type="text/css">
 	
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
 <link rel="icon" href="assets/mnb_calilung.png" type="image/png" sizes="16x16">
 	
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -29,44 +31,51 @@
 	</div>
 	
 	<div class="homebox">
-		<h1 id="welcome">It's more fun in the Philippines&#33;</h1>
+		<h1 id="welcome">Visit Philippines!</h1>
 		<p id="statement">Welcome to the Philippines where every island offers a new adventure, and every smile welcomes you home. Dive into turquoise waters, walk through historical towns, and savor the flavors of our rich culture. Let us be your gateway to paradise. Welcome to the Philippines!</p>
-		<img id="homebox" src="assets/home.jpg" alt="white sand beach and palm trees">
+		<img id="homebox" src="assets/home_3.jpg" alt="white sand beach and palm trees">
 	</div>
 	
 	<h1 id="services">SERVICES</h1>
 	
-<div id="container">	
-	<div class="boating">
-		<img id="boating" src="assets/boating.jpg" alt="Man holding coconut on a boat in the water.">
-		<div class="textbox1"></div>
-		<h1 id="subhead1">Boating</h1>
-		<p id="description1">Embark on an unforgettable boating excursion in the Philippines! Cruise through clear waters and stunning coastlines with prices starting at just $50 per person. Whether you're seeking relaxation or adventure, our expert crew ensures a memorable journey. Book your experience today!</p>
-	</div>
+	<div class="backgroundbox"></div>
+
 	
-	<div class="surfing">
-		<img id="surfing" src="assets/surfing.jpg" alt="Surfboards on the beach.">
-		<div class="textbox2">
-		<h1 id="subhead2">Surfing</h1>
-		<p id="description2">Dive into excitement with our surfing excursion in the Philippines! Learn from the pros with prices starting at $60 per person. Join us for a thrilling half-day or full-day session, including surfboard rental and expert instruction. Ride the waves and make memories to last a lifetime!</p>
-		</div>
-	</div>
+	<!-- Slideshow container -->
+<div class="slideshow-container">
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <img class="slideshowpic" src="assets/boating.jpg">
+    <div id="boating">Boating</div>
+  </div>
+
+  <div class="mySlides fade">
+    <img class="slideshowpic" src="assets/surfing.jpg">
+    <div id="surfing">Surfing</div>
+  </div>
+
+  <div class="mySlides fade">
+    <img class="slideshowpic" src="assets/historical.jpg">
+    <div id="historical">Historical</div>
+  </div>
 	
-	<div class="food">
-		<img id="food" src="assets/food.jpg" alt="Food laid out in boodle style.">
-		<div class="textbox4">
-		<h1 id="subhead4">Food and Culinary</h1>
-		<p id="description4">Indulge your taste buds with our food and culinary tour in the Philippines! Discover the rich flavors and diverse cuisine of our nation. Prices start at $40 per person for a half-day tour, including food tastings at local eateries and expert guidance from our knowledgeable guides. Immerse yourself in the culinary delights of the Philippines and create delicious memories that will last a lifetime!</p>
-		</div>
-	</div>
-	
-	<div class="historical">
-		<img id="historical" src="assets/historical.jpg" alt="Historical building in the Philippines.">
-		<div class="textbox3">
-		<h1 id="subhead3">Historical</h1>
-		<p id="description3">Immerse yourself in the vibrant culture of the Philippines with our unforgettable historical experience! Explore historical landmarks and dive into the heart of Filipino culture with prices starting at just $30 per person. Join us for an enriching journey filled with traditions and unforgettable memories!</p>
-		</div>
-	</div>
+	 <div class="mySlides fade">
+    <img class="slideshowpic" src="assets/food.jpg">
+    <div id="food">Food and Culinary</div>	 
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+	<span class="dot" onclick="currentSlide(4)"></span>
 </div>
 	
 	<h1 id="about">ABOUT</h1>
@@ -89,13 +98,42 @@
 		<h1 id="contact">CONTACT</h1>
 		</div>
 		<div class="contactinfo">
-		<p>Email: info@mangoandbreeze.com</p>
+		<p id="contactstatement">Feel free to reach out to us for all your travel needs, inquiries, or assistance. We look forward to hearing from you and helping you plan your next adventure!</p>
+		<p id="email">Email: info@mangoandbreeze.com</p>
 		<p>Phone: +63 123 456 7890</p>
-		<p>Address: E. Rodriguez Sr. Ave, corner Sta Cecilia St, Quezon City, Metro Manila, Philippines</p>
-		<p>Feel free to reach out to us for all your travel needs, inquiries, or assistance. We look forward to hearing from you and helping you plan your next adventure!</p>
+		<p>Address: E. Rodriguez Sr. Ave, Cecilia St, Quezon City, Metro Manila, Philippines</p>
 		</div>
 		</div>
 	</footer>
+
+<script>
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
 	
 </body>
 </html>
