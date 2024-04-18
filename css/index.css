@@ -273,14 +273,24 @@ font-family: "Urbanist", sans-serif;
 }
 
 /* The dots/bullets/indicators */
+.dotContainer {
+	width: 100%;
+	display: flex;
+	align-items: center;
+}
+
+.dotWrapper {
+	margin: 0 auto;
+}
+
 .dot {
   cursor: pointer;
   height: 15px;
   width: 15px;
-  margin: 0 2px;
+  margin: 0 auto;
 	background-color: #e8b235;
   border-radius: 50%;
-  display: inline-block;
+	display: inline-block;
   transition: background-color 0.6s ease;
 }
 
