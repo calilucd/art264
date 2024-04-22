@@ -125,7 +125,7 @@ html {
 	padding-left: 30px;
 	font-family: "Slackey", sans-serif;
 	font-weight: 400;
-	font-size: 50px;
+	font-size: 3vw;
 	color: #e8b235;
 }
 
@@ -184,7 +184,7 @@ html {
 	padding: 20px;
 	border-radius: 20px;
 	line-height: 1.6;
-	bottom: 240px;
+	bottom: 245px;
 	letter-spacing: 1px;
 }
 
@@ -202,6 +202,10 @@ html {
 	line-height: 1.6;
 	bottom: 70px;
 	letter-spacing: 1px;
+}
+
+.slidesBold {
+	font-weight: 300;
 }
 
 /* Hide the images by default */
@@ -245,7 +249,7 @@ font-family: "Urbanist", sans-serif;
 	position: absolute;
 	text-align: right;
 	top: 50px;
-	right: 446px;
+	right: 450px;
 }
 
 #historical {
@@ -257,7 +261,7 @@ font-family: "Urbanist", sans-serif;
 	position: absolute;
 	text-align: right;
 	top: 50px;
-	right: 415px;
+	right: 420px;
 }
 
 #food {
@@ -269,7 +273,7 @@ font-family: "Urbanist", sans-serif;
 	position: absolute;
 	text-align: right;
 	top: 50px;
-	right: 225px;
+	right: 230px;
 }
 
 /* The dots/bullets/indicators */
@@ -277,6 +281,8 @@ font-family: "Urbanist", sans-serif;
 	width: 100%;
 	display: flex;
 	align-items: center;
+	margin: 0 auto;
+	padding: 0;
 }
 
 .dotWrapper {
@@ -316,7 +322,7 @@ font-family: "Urbanist", sans-serif;
 	padding-left: 30px;
 	font-family: "Slackey", sans-serif;
 	font-weight: 400;
-	font-size: 50px;
+	font-size: 3vw;
 	color: #e8b235;
 }
 
@@ -338,7 +344,7 @@ font-family: "Urbanist", sans-serif;
 #abouttext {
 	font-family: "Urbanist", sans-serif;
 	font-weight: 400;
-	font-size: 23px;
+	font-size: 1.7vw;
 	line-height: 1.6;
 	width: 40%;
 	float: right;
@@ -351,14 +357,14 @@ font-family: "Urbanist", sans-serif;
 	padding-left: 30px;
 	font-family: "Slackey", sans-serif;
 	font-weight: 400;
-	font-size: 50px;
+	font-size: 3vw;
 	color: #e8b235;
 }
 
 #stafftext {
 	font-family: "Urbanist", sans-serif;
 	font-weight: 400;
-	font-size: 23px;
+	font-size: 1.6vw;
 	line-height: 1.6;
 	width: 35%;
 	float: left;
@@ -372,6 +378,7 @@ font-family: "Urbanist", sans-serif;
 	padding-right: 30px;
 	padding-top: 60px;
 	padding-bottom: 30px;
+	display: flex;
 }
 
 #staffpic {
@@ -389,7 +396,7 @@ footer {
 	padding-left: 30px;
 	font-family: "Slackey", sans-serif;
 	font-weight: 400;
-	font-size: 50px;
+	font-size: 3vw;
 	color: #e8b235;
 }
 
@@ -400,7 +407,7 @@ footer {
 .contactinfo {
 	font-family: "Urbanist", sans-serif;
 	font-weight: 100;
-	font-size: 18px;
+	font-size: 1vw;
 	letter-spacing: 1px;
 	line-height: 1.5;
 	color: white;
@@ -410,11 +417,167 @@ footer {
 	width: 40%;
 }
 
-#contactstatement {
-	font-weight: 500;
+.contactBold {
+	font-weight: 400;
 }
 
-@media only screen and (max-width: 620px) {
-  /* For mobile phones: */
+#contactstatement {
+	font-weight: 600;
+}
 
+/*@media screen and (max-width: 1686px) {
+	
+#welcome {
+	bottom: 190px;
+}
+
+#statement {
+	bottom: 100px;
+}
+	
+.slideshowpic {
+	margin-top: 95px;
+	margin-left: 70px;
+}
+
+.slidesbox1 {
+	margin-top: 140px;
+}
+
+.slidesbox2 {
+	bottom: 215px;
+}
+
+.slidesbox3 {
+	bottom: 85px;
+}
+
+#boating {
+	top: 90px;
+	right: 395px;
+}
+
+#historical {
+	top: 90px;
+	right: 370px;
+}
+
+#food {
+	top: 90px;
+	right: 208px;
+}
+	
+#stafftext {
+	font-size: 1.5vw;
+}	
+}*/
+
+@media screen and (max-width: 1024px) {
+#welcome {
+	bottom: 120px;
+}
+
+#statement {
+	bottom: 50px;
+}
+
+.slideshow-container {
+	height: 450px;
+}
+	
+.slideshowpic {
+	margin-top: 95px;
+	margin-left: 50px;
+}
+
+.slidesbox1 {
+	margin-top: 95px;
+}
+
+.slidesbox2 {
+	bottom: 190px;
+}
+
+.slidesbox3 {
+	bottom: 70px;
+}	
+	
+#boating {
+	top: 50px;
+	right: 330px;
+}
+
+#historical {
+	top: 50px;
+	right: 305px;
+}
+
+#food {
+	top: 50px;
+	right: 180px;
+}
+}
+
+@media screen and (max-width: 430px) {
+.topnav {
+	padding-top: 20px;
+	margin-bottom: 20px;
+	float: none;
+	text-align: center;
+}	
+	
+#welcome {
+	bottom: 175px;
+}
+
+#statement {
+	bottom: 140px;
+}
+	
+	.slideshow-container {
+		height: 450px;
+	}
+	
+.backgroundbox {
+	background: #53aeb7;
+	border-radius: 25px;
+}
+
+.slideshowpic {
+	width: 60%;
+	margin-left: 75px;
+	margin-top: 20px;
+}
+	
+.slidesbox1 {
+	font-weight: 300;
+	position: absolute;
+	width: 50%;
+	padding: 15px;
+	border-radius: 15px;
+	margin-top: 40px;
+}
+
+.slidesbox2 {
+	font-weight: 300;
+	width: 50%;
+	position: absolute;
+	padding: 15px;
+	border-radius: 15px;
+	bottom: 130px;
+}
+
+.slidesbox3 {
+	font-weight: 300;
+	position: absolute;
+	width: 50%;
+	padding: 15px;
+	border-radius: 15px;
+	bottom: 70px;
+}
+	
+#boating {
+	top: 190px;
+	right: 240px;
+}
 }
