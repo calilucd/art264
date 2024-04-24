@@ -522,6 +522,11 @@ footer {
 
 /*media query for iphone 15 pro max*/
 @media only screen and (max-width: 430px) {
+	html, body {
+		width: 100%;
+		overflow-x: hidden;
+	}
+	
 	#home {
 		margin-left: 85px;
 	}
@@ -684,24 +689,6 @@ footer {
 		margin-left: 30px;
 		margin-top: -30px;
 		margin-bottom: 30px;
-	}
-}
-
-@media only screen and (min-height: 800px) and (orientation: portrait) {
-	#welcome {
-		top: 70%;
-	}
-	
-	#statement {
-		top: 75%;
-	}
-	
-	.slideshow-container {
-		height: 80vh;
-	}
-	
-	#boating {
-		top: 45%;
 	}
 }
 
