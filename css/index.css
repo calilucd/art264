@@ -548,12 +548,12 @@ footer {
 	}
 	
 	#welcome {
-	top: 78.5%;
+	top: 60%;
 	font-size: 6vw;
 	}
 	
 	#statement {
-	top: 83%;
+	top: 64%;
 	font-size: 2.5vw;
 	width: 70%;
 	}
@@ -565,7 +565,7 @@ footer {
 	
 	.slideshow-container {
 		margin-top: 5%;
-		height: 90vh;
+		height: 70vh;
 	}
 	
 	.slideshowpic {
