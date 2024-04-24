@@ -430,7 +430,9 @@ footer {
 	font-weight: 600;
 }
 
-@media screen and (max-width: 1120px) {
+/*media query for ipad
+*/
+@media screen and (max-width: 1074px) {
 #welcome {
 	bottom: 120px;
 }
@@ -476,7 +478,9 @@ footer {
 }
 }
 
-@media screen and (max-width: 526px) {
+/*media query for iphone 15 pro max
+*/
+@media screen and (max-width: 460px) {
 #home {
 	margin-left: 90px;	
 }
