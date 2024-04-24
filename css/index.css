@@ -479,6 +479,47 @@ footer {
 }
 }
 
+@media only screen and (max-width: 1400px) {
+	#welcome {
+		top: 60%;
+	}
+	
+	#statement {
+		bottom: 25%;
+	}
+	
+	.slideshowpic {
+		margin-top: 5%;
+	}
+	
+	.slidesbox1 {
+		margin-top: 9.6%;
+	}
+	
+	.slidesbox2 {
+		bottom: 220px;
+	}
+	
+	.slidesbox3 {
+		bottom: 13%;
+	}
+	
+	#boating {
+		top: 11%;
+		right: 32%;
+	}
+	
+	#historical {
+		top: 12%;
+		right: 29.5%;
+	}
+	
+	#food {
+		top: 11%;
+		right: 16.6%;
+	}
+}
+
 /*media query for iphone 15 pro max
 */
 @media only screen and (max-width: 450px) {
