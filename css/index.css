@@ -405,7 +405,7 @@ footer {
 	margin-top: -8px;
 }
 
-#contactbox {
+.contactbox {
 	display: flex;
 }
 
@@ -480,129 +480,163 @@ footer {
 
 /*media query for iphone 15 pro max
 */
-@media screen and (max-width: 420px) {
-#home {
-	margin-left: 90px;	
-}
+@media screen and (max-width: 450px) {
+	#home {
+		margin-left: 80px;
+	}
 	
-.topnav {
-	padding-top: 20px;
-	margin-bottom: 20px;
-	float: none;
-	text-align: center;
-}	
+	.topnav {
+		margin-top: -30px;
+		margin-bottom: 20px;
+		margin-right: -5px;
+	}
 	
-#welcome {
-	bottom: 175px;
-}
-
-#statement {
-	bottom: 140px;
-}
+	.topnav > a {
+		margin-right: 25px;
+		font-size: 2.5vw;
+		padding: 1px;
+	}
 	
-.slideshow-container {
-	height: 600px;
-}
+	.homebox {
+		height: 550px;
+	}
 	
-.backgroundbox {
-	border-radius: 25px;
-}
-
-.slideshowpic {
-	width: 85%;
-	margin-left: 28px;
-	margin-top: 20px;
-}
+	#welcome {
+	top: 765px;
+	font-size: 6vw;
+	}
 	
-.slidesbox1 {
-	font-weight: 300;
+	#statement {
+	top: 800px;
+	font-size: 2.5vw;
+	width: 70%;
+	}
+	
+	#services {
+		font-size: 6vw;
+	}
+	
+	.slideshowpic {
+	width: 90%;
+	margin-left: 20px;
+	margin-top: 30px;
+	}
+	
+	.slidesbox1 {
+	margin-top: 55px;
+	margin-right: -30px;
 	width: 65%;
-	padding: 15px;
+	font-size: 2.2vw;
 	border-radius: 15px;
-	margin-top: 12%;
-	font-size: 10px;
-	left: -55px;
-}
-
-.slidesbox2 {
-	font-weight: 300;
+	padding: 15px;
+	}
+	
+	.slidesbox2 {
+	margin-top: 337px;
+	margin-right: -30px;
 	width: 65%;
-	padding: 15px;
+	font-size: 2.2vw;
 	border-radius: 15px;
-	margin-top: 55%;
-	font-size: 10px;
-	left: -55px;
-}
-
-.slidesbox3 {
-	font-weight: 300;
+	padding: 15px;
+	}
+	
+	.slidesbox3 {
+	margin-bottom: -30px;
+	margin-right: -30px;
 	width: 65%;
-	padding: 15px;
+	font-size: 2.2vw;
 	border-radius: 15px;
-	margin-bottom: -15%;
-	font-size: 10px;
-	right: 55px;
-}
+	padding: 15px;
+	}
 	
-.slidesBold {
-	font-weight: 600;
-}
+	#boating {
+		left: -217px;
+		top: 45%;
+		font-size: 6vw;
+	}
 	
-#boating {
-	top: 245px;
-	right: 240px;
-	font-size: 20px;
-}
+	#historical {
+		left: -197px;
+		top: 45%;
+		font-size: 6vw;
+	}
 	
-#historical {
-	font-size: 20px;
-	top: 245px;
-	right: 225px;
-}
-
-#food {
-	font-size: 20px;
-	top: 245px;
-	right: 143px;
-}
+	#food {
+		font-size: 6vw;
+		left: -90px;
+		top: 45%;
+	}
+	
+	.dotContainer {
+		display: none;
+	}
 	
 	#about {
-	float: right;
+		font-size: 6vw;
+		margin-top: -180px;
 	}
 	
 	.aboutbox {
-		height: 250px;
+		height: 160px;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
 	}
-
+	
 	#aboutpic {
-	width: 65%;
-	height: 75%;
-	margin-left: -30px;
-	margin-top: 50px;
+		margin-top: 15px;
+		width: 100%;
+		margin-right: 30px;
 	}
 	
 	#abouttext {
-		margin-top: 50px;
-		margin-right: -115px;
+		margin-top: -80px;
+		font-size: 2.5vw;
+		width: 100%;
+	}
+	
+	.staffbox {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
 	}
 	
 	#staff {
-	padding-left: 30px;
-	font-size: 3vw;
-}
-	
-	.staffbox {
-		height: 200px;
-		padding-top: 20px;
-	}
-	
-	#staffpic {
-		width: 65%;
-		margin-right: -30px;
+		font-size: 6vw;
+		margin-top: -180px;
 	}
 	
 	#stafftext {
-		width: 45%;
+		margin-top: -60px;
+		width: 100%;
+		font-size: 2.5vw;
+		margin-right: -30px;
+	}
+	
+	#staffpic {
+		margin-top: 15px;
+		width: 90%;
+		margin-left: 30px;
+	}
+	
+	.contactbox {
+		margin-top: -45px;
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+	
+	#contact {
+		font-size: 5.5vw;
+		margin-left: 130px;
+		padding-top: 40px;
+	}
+	
+	.contactinfo {
+		font-size: 2.5vw;
+		width: 100%;
+		margin-left: 30px;
+		margin-top: -30px;
+		margin-bottom: 30px;
 	}
 }
 
@@ -665,6 +699,11 @@ footer {
 	}
 	
 	#contact {
-		margin-top: -18px;
+		margin-top: 50px;
+		margin-right: 100px;
+	}
+	
+	#contactstatement {
+		width: 80%;
 	}
 }
