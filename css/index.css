@@ -431,8 +431,7 @@ footer {
 	font-weight: 600;
 }
 
-/*media query for ipad
-*/
+/*media query for ipad*/
 @media only  screen and (max-width: 1034px) {
 #welcome {
 	bottom: 120px;
@@ -479,6 +478,7 @@ footer {
 }
 }
 
+/*media query for ipad landscape*/
 @media only screen and (max-width: 1400px) {
 	#welcome {
 		top: 60%;
@@ -520,8 +520,7 @@ footer {
 	}
 }
 
-/*media query for iphone 15 pro max
-*/
+/*media query for iphone 15 pro max*/
 @media only screen and (max-width: 430px) {
 	#home {
 		margin-left: 85px;
@@ -688,6 +687,25 @@ footer {
 	}
 }
 
+@media only screen and (min-height: 800px) {
+	#welcome {
+		top: 70%;
+	}
+	
+	#statement {
+		top: 75%;
+	}
+	
+	.slideshow-container {
+		height: 80vh;
+	}
+	
+	#boating {
+		top: 45%;
+	}
+}
+
+/*media query for 21 in monitor*/
 @media only screen and (min-width: 1800px) {
 	#homePic {
 		height: 130%;
