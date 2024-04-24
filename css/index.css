@@ -687,7 +687,7 @@ footer {
 	}
 }
 
-@media only screen and (min-height: 800px) {
+@media only screen and (min-height: 800px) and (orientation: portrait) {
 	#welcome {
 		top: 70%;
 	}
