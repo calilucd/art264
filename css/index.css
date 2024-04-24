@@ -87,7 +87,7 @@ html {
 	height: 610px;
 }
 
-#homebox
+#homePic
 {
 	width: 100%;
 	height: 100%;
@@ -184,7 +184,7 @@ html {
 	padding: 20px;
 	border-radius: 20px;
 	line-height: 1.6;
-	bottom: 245px;
+	bottom: 240px;
 	letter-spacing: 1px;
 }
 
@@ -324,12 +324,14 @@ font-family: "Urbanist", sans-serif;
 	font-weight: 400;
 	font-size: 3vw;
 	color: #e8b235;
+	float: right;
+	margin-right: 30px;
 }
 
 .aboutbox
 {
 	border-radius: 15px;
-	margin-top: 50px;
+	margin-top: 175px;
 	padding-left: 30px;
 	height: 650px;
 }
@@ -366,7 +368,7 @@ font-family: "Urbanist", sans-serif;
 	font-weight: 400;
 	font-size: 1.6vw;
 	line-height: 1.6;
-	width: 35%;
+	width: 45%;
 	float: left;
 	padding-left: 30px;
 	padding-right: 40px;
@@ -383,9 +385,10 @@ font-family: "Urbanist", sans-serif;
 }
 
 #staffpic {
-	width: 80%;
+	width: 50%;
 	height: 100%;
 	border-radius: 25px 25px 25px 25px;
+	margin-left: 50px;
 	object-fit: contain;
 }
 
@@ -399,6 +402,7 @@ footer {
 	font-weight: 400;
 	font-size: 3vw;
 	color: #e8b235;
+	margin-top: -8px;
 }
 
 #contactbox {
@@ -409,17 +413,17 @@ footer {
 	font-family: "Urbanist", sans-serif;
 	font-weight: 100;
 	font-size: 1vw;
-	letter-spacing: 1px;
+	letter-spacing: 1.5px;
 	line-height: 1.5;
 	color: white;
 	padding-right: 30px;
 	padding-top: 50px;
 	padding-bottom: 50px;
-	width: 40%;
+	width: 80%;
 }
 
 .contactBold {
-	font-weight: 400;
+	font-weight: 500;
 }
 
 #contactstatement {
@@ -595,5 +599,68 @@ footer {
 	
 	#stafftext {
 		width: 45%;
+	}
+}
+
+@media screen and (max-width: 2000px) {
+	#homePic {
+		height: 130%;
+	}
+	
+	#welcome {
+		bottom: 190px;
+	}
+	
+	#statement {
+		bottom: 60px;
+	}
+	
+	#services {
+		margin-top: 200px;
+	}
+	
+	.slideshow-container {
+		height: 650px;
+	}
+	
+	.slidesbox1 {
+		bottom: -20px;
+	}
+	
+	.slidesbox2 {
+		bottom: 300px;
+	}
+	
+	.slidesbox3 {
+		bottom: 45px;
+	}
+	
+	#boating {
+		right: 548px;
+	}
+	
+	#historical {
+		right: 505px;
+	}
+	
+	#food {
+		right: 268px;
+	}
+	
+	#aboutpic {
+		height: 105%;
+	}
+	
+	#staff {
+		margin-top: 120px;
+	}
+	
+	.staffbox {
+		margin-top: 20px;
+		margin-bottom: 50px;
+	}
+	
+	#contact {
+		margin-top: -18px;
 	}
 }
