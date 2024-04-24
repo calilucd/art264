@@ -522,7 +522,7 @@ footer {
 
 /*media query for iphone 15 pro max
 */
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 430px) {
 	#home {
 		margin-left: 85px;
 	}
@@ -540,16 +540,16 @@ footer {
 	}
 	
 	.homebox {
-		height: 530px;
+		height: 520px;
 	}
 	
 	#welcome {
-	top: 63.5%;
+	top: 78.5%;
 	font-size: 6vw;
 	}
 	
 	#statement {
-	top: 67%;
+	top: 83%;
 	font-size: 2.5vw;
 	width: 70%;
 	}
@@ -561,7 +561,7 @@ footer {
 	
 	.slideshow-container {
 		margin-top: 5%;
-		height: 70vh;
+		height: 90vh;
 	}
 	
 	.slideshowpic {
