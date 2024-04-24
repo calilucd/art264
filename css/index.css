@@ -430,7 +430,7 @@ footer {
 	font-weight: 600;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1120px) {
 #welcome {
 	bottom: 120px;
 }
@@ -476,7 +476,7 @@ footer {
 }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 526px) {
 #home {
 	margin-left: 90px;	
 }
