@@ -361,7 +361,7 @@ font-family: "Urbanist", sans-serif;
 }
 
 #aboutpic {
-	width: 50%;
+	width: 54%;
 	height: 90%;
 	border-radius: 25px;
 	object-fit: cover;
@@ -896,5 +896,163 @@ footer {
 	
 	#contact {
 		margin-left: 30px;
+	}
+}
+
+@media only screen and (min-width: 400px) {
+	#home {
+		margin-left: 25%;
+	}
+	
+	.topnav {
+		margin-right: 5%;
+		margin-top: -8%;
+		margin-bottom: 5%;
+	}
+	
+	.topnav > a {
+		font-size: 2vw;
+	}
+	
+	.homebox {
+		height: 72vh;
+	}
+	
+	#welcome {
+		font-size: 4.5vw;
+		top: 81.5%;
+	}
+	
+	#statement {
+		width: 74%;
+		font-size: 2vw;
+		top: 85%;
+	}
+	
+	#services {
+		margin-top: 7%;
+		font-size: 6vw;
+	}
+	
+	.slideshow-container {
+		height: 83vh;
+		margin-top: 5%;
+	}
+	
+	.slideshowpic {
+		width: 75%;
+		margin-left: 13%;
+	}
+	
+	.slidesbox1 {
+		width: 65%;
+		margin-right: -6%;
+		bottom: -3.5vh;
+		font-size: 2vw;
+	}
+	
+	.slidesbox2 {
+		width: 65%;
+		font-size: 2vw;
+		margin-right: -6%;
+		bottom: -4.5vh;
+	}
+	
+	.slidesbox3 {
+		width: 65%;
+		font-size: 2vw;
+		margin-right: -6%;
+		bottom: 2vh;
+	}
+	
+	#boating {
+		font-size: 5.5vw;
+		top: 40%;
+		right: 60%;
+	}
+	
+	#historical {
+		font-size: 5.5vw;
+		top: 40%;
+		right: 55%;
+	}
+	
+	#food {
+		font-size: 5.5vw;
+		top: 40%;
+		right: 28.5%;
+	}
+	
+	.aboutbox {
+		margin-bottom: -90%;
+	}
+	
+	#about {
+		margin-top: 2%;
+		font-size: 6vw;
+	}
+	
+	.aboutbox {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+	
+	#aboutpic {
+		width: 95%;
+		height: 27vh;
+		margin-top: -53%;
+	}
+	
+	#abouttext {
+		font-size: 2.5vw;
+		width: 90%;
+		margin-top: -10%;
+	}
+	
+	
+	#staff {
+		font-size: 6vw;
+		margin-top: 35%;
+	}
+	
+	.staffbox {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		margin-top: -8%;
+	}
+	
+	#staffpic {
+		width: 95%;
+		margin-left: 5%;
+	}
+	
+	#stafftext {
+		width: 90%;
+		margin-bottom: 5%;
+		font-size: 2.5vw;
+	}
+	
+	#contact {
+		font-size: 6vw;
+		margin-left: 30%;
+	}
+	
+	.contactbox {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+	
+	.contactinfo {
+		margin-left: 15%;
+		margin-top: -5%;
+		font-size: 2vw;
+	}
+	
+	#myBtn {
+  		padding: 10px; 
+  		font-size: 2.5vw; 
 	}
 }
