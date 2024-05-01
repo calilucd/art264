@@ -134,7 +134,8 @@ html {
   cursor: pointer; 
   padding: 12px; 
   border-radius: 10px; 
-  font-size: 1.3vw; 
+	font-family: "Slackey", sans-serif;
+  font-size: 1.2vw; 
 }
 
 #myBtn:hover {
